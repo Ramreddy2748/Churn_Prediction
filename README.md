@@ -36,17 +36,21 @@ This repository contains code and resources for a churn prediction project. The 
 **VISUALIZING DATA**
 
 **Plot 1**:
-The count plot will display bars for each unique category in the '**Gender**' column of the DataFrame. There will be one bar for each unique gender category, and the height of each bar represents the count of occurrences of that gender in the dataset.
+
+The **count plot** will display **bars** for each unique category in the '**Gender**' column of the DataFrame. There will be one bar for each unique gender category, and the height of each bar represents the count of occurrences of that gender in the dataset.
 This type of plot is useful for visualizing the distribution of a **categorical variable**, in this case, the distribution of genders in the dataset. It provides a quick visual summary of the number of occurrences of each category, making it easy to compare the counts between different categories.
 
 **Plot 2**
+
 The count plot will show a bar for each unique category in the '**Nationality**' column of the DataFrame. The height of each bar represents the count or frequency of occurrences of that nationality in the dataset.
 
 **Plot 3**
+
 plt.figure(figsize=(16,16)): This line of code is using **Matplotlib**, and it sets the **size of the figure** that will contain the count plot. The figsize parameter specifies the width and height of the figure in inches. In this case, it's set to 16 inches by 16 inches.
 sns.countplot(data=df, x='Age'): This line of code creates a count plot using **Seaborn.** It specifies that the **'Age'** variable should be plotted on the **x-axis**, and the count plot will display bars for each unique age in the 'Age' column of the DataFrame df.
 
 **Plot 4**
+
 The plot will be a histogram of the '**Cibil Score**' variable with 20 bins. A **histogram** is a graphical representation of the distribution of a dataset. Each bar in the histogram represents the frequency or count of values falling within a specific range or bin.
 This type of visualization is useful for understanding the distribution of a **numerical variable**, in this case, the distribution of scores. 
 
