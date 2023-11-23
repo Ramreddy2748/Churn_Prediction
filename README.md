@@ -1,4 +1,4 @@
-# Churn_Prediction-using-_different_models
+# Churn_Prediction
 
 ## Overview
 
