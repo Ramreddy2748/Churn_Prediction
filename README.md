@@ -8,9 +8,13 @@ This repository contains code and resources for a churn prediction project. The 
 
 **The ML Pipeline that I have followed is :**
   Importing the necessary libraries and the dataset
+  
   Performing Data Preprocessing (Exploratory Data Analysis and Data Manipulation)
+  
   Modelling using **Decision Tree,Random Forest, XGBoost**(Extreme Gradient Boosting)
+  
   Performing Prediction
+  
   Visualization of data
 
   
